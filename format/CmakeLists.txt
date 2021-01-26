@@ -1,0 +1,10 @@
+
+
+
+add_library(
+    format
+    format.hpp
+    format.cpp
+)
+
+target_include_directories(format PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}")
